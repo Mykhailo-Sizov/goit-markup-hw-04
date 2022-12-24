@@ -59,7 +59,7 @@ ul {
 .heder-nav  {
     display: flex;
     width: 1152px;
-    margin: auto;
+    margin: 0 auto;
     padding-right: 12px;
     padding-left: 12px;
     align-items: center;
@@ -162,6 +162,12 @@ ul {
     text-align: center;
     background-color:#2E2F42; 
     color: var(--white-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/people-office\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ 
 }
 
 .container {
@@ -197,14 +203,16 @@ ul {
 /* первая секция после героя */
 .section-content {
     padding-top: 120px;
-    padding-bottom: 0;
-    
+    padding-bottom: 0; 
 }
 
 .container-content{
     justify-content: center;
     margin: auto;
-    width: 1128px;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
 }
 
 .section-title {
@@ -220,11 +228,36 @@ ul {
     display: flex;
     text-align: start;
     padding-left: 0;
+    
 }
+
+
 .content-list:not(:last-child){
     margin-right: 24px;
 }
 
+.content-list::before {
+    display: inline-block;
+    content:'';
+    width: 264px;
+    height: 112px;
+    /* background-color: tomato; */
+}
+.content-list:nth-child(1)::before {
+    background-image: url(../img/Icon\ 1.png);
+}
+
+.content-list:nth-child(2)::before {
+    background-image: url(../img/Icon\ 2.png);
+}
+
+.content-list:nth-child(3)::before {
+    background-image: url(../img/Icon\ 3.png);
+}
+
+.content-list:nth-child(4)::before {
+    background-image: url(../img/Icon\ 4.png);
+}
 
 /* what are we doing */
 .our-works {
