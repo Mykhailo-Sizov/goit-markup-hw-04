@@ -288,18 +288,16 @@ ul {
 
 .work-img:not(:last-child) {
     margin-right: 24px;
-    
-    
 }
+
+
 
 /* our team */
 .our-team {
     margin-top: 120px;
     padding-bottom: 120px;
     background-color: var(--button-portfolio);
-
 }
-
 
 .container-command {
     text-align: center;
@@ -307,9 +305,7 @@ ul {
 
 .section-team {
     padding-top: 120px;
-    padding-bottom: 72px;
-   
-    
+    padding-bottom: 72px; 
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.11em;
@@ -322,13 +318,13 @@ ul {
     justify-content: center;
     margin-bottom: 0;
     padding-left: 0;
-    
 }
 
 .names-team:not(:last-child) {
     margin-right: 24px;
 }
 .names-team {
+    /* background-color: aqua; */
     background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
@@ -344,6 +340,31 @@ border-radius: 0px 0px 4px 4px;
 
 .foto-names {
     padding: 32px 64px;
+}
+
+.icon-list {
+    display: flex;
+    /* display: inline-block; */
+    justify-content: space-between;
+    
+    
+}
+
+.icon-item {
+    width: 40px;
+    height: 40px;
+    background-color: var(--button-color);
+    border-radius: 50%;
+}
+
+.icon {
+   align-items: center;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    
 }
 
 /* Footer */
