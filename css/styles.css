@@ -318,13 +318,14 @@ ul {
     justify-content: center;
     margin-bottom: 0;
     padding-left: 0;
+    width: 100%;
+    height: auto;
 }
 
 .names-team:not(:last-child) {
     margin-right: 24px;
 }
 .names-team {
-    /* background-color: aqua; */
     background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
@@ -339,7 +340,9 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .foto-names {
-    padding: 32px 64px;
+    /* padding: 32px 64px; */
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .icon-list {
@@ -347,6 +350,7 @@ border-radius: 0px 0px 4px 4px;
     justify-content: space-between;
     width: 232px;
     height: 48px;
+    padding-top: 16px;
     
     
 }
@@ -369,8 +373,14 @@ border-radius: 0px 0px 4px 4px;
 .svg-icon {
     width: 16px;
     height: 16px;
+    /* fill: red; */
     
 }
+
+.svg-icon :hover{
+    /* fill: #4D5AE5; */
+}
+
 
 /* Footer */
 
