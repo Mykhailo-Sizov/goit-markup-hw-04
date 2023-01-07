@@ -199,6 +199,9 @@ ul {
     cursor: pointer;
     border-radius: 4px;
 }
+.button-hero:hover {
+    background-color: #404BBF;
+}
 
 /* первая секция после героя */
 .section-content {
@@ -351,15 +354,12 @@ border-radius: 0px 0px 4px 4px;
     width: 232px;
     height: 48px;
     padding-top: 16px;
-    
-    
 }
 
 .icon-item {
     width: 40px;
     height: 40px;
-    background-color: var(--button-color);
-    border-radius: 50%;
+    
 }
 
 .icon {
@@ -368,19 +368,53 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+    background-color: var(--button-color);
+    border-radius: 50%;
 }
 
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    /* fill: red; */
+.icon-item :hover {
+    background-color: #404BBF;
     
 }
+   
+/* Customers  */
 
-.svg-icon :hover{
-    /* fill: #4D5AE5; */
+.customers-item {
+    font-family: sans-serif;
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 72px;
+
 }
 
+.customers-ul {
+    display: flex;
+    justify-content: center;
+    width: 1152px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+    
+
+}
+
+.customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;  
+}
+
+.customers-list:not(:last-child) {
+    margin-right: 24px;
+}
 
 /* Footer */
 
