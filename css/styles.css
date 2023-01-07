@@ -419,14 +419,19 @@ border-radius: 0px 0px 4px 4px;
 /* Footer */
 
 .section-footer{
-    padding: 138px 1020px 100px 156px;
+    display: flex;
     background-color: var(--title-text-color);
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-bottom: 100px;
       
 }
 
 .footer-text {
+    display: block;
     width: 264px;
     color: #E7E9FC;
+    margin-right: 120px;
    
 }
 
@@ -451,11 +456,11 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.5em;
     color: #FFFFFF;
     letter-spacing: 0.02em;
+    padding-bottom: 16px;
 }
 
 .footer-ul {
     display: flex;
-    justify-content: space-between;
     width: 232px;
     height: 48px;
     padding-top: 16px;
@@ -465,7 +470,11 @@ border-radius: 0px 0px 4px 4px;
 .footer-list {
     width: 40px;
     height: 40px;
+    
+}
 
+.footer-list:not(:last-child){
+    margin-right: 16px;
 }
 
 .footer-list :hover {
@@ -483,7 +492,6 @@ border-radius: 0px 0px 4px 4px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-
 
 
       /*  Portfolio page */
