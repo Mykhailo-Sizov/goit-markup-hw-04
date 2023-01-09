@@ -238,28 +238,15 @@ ul {
 .content-list:not(:last-child){
     margin-right: 24px;
 }
-
-.content-list::before {
-    display: inline-block;
-    content:'';
+.content-div {
+    background-color: #F4F4FD;
+    border-radius: 4px;
     width: 264px;
     height: 112px;
-    /* background-color: tomato; */
-}
-.content-list:nth-child(1)::before {
-    background-image: url(../img/Icon\ 1.png);
-}
-
-.content-list:nth-child(2)::before {
-    background-image: url(../img/Icon\ 2.png);
-}
-
-.content-list:nth-child(3)::before {
-    background-image: url(../img/Icon\ 3.png);
-}
-
-.content-list:nth-child(4)::before {
-    background-image: url(../img/Icon\ 4.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 /* what are we doing */
@@ -406,11 +393,32 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* width: 168px;
+    height: 88px;  */
+   
+}
+
+.customers-svg-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     width: 168px;
     height: 88px;  
 }
+
+.customers-svg-a :hover,:focus{
+    color: violet; 
+    border: 1px solid violet;
+}
+
+.customers-svg {
+    
+}
+
+
+
 
 .customers-list:not(:last-child) {
     margin-right: 24px;
