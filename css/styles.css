@@ -405,24 +405,21 @@ border-radius: 0px 0px 4px 4px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     width: 168px;
-    height: 88px;  
-}
-
-.customers-svg-a :hover,:focus{
-    color: violet; 
-    border: 1px solid violet;
-}
-
-.customers-svg {
+    height: 88px; 
     
 }
 
-
-
+.customers-svg-a:hover,
+.customers-svg-a:focus {
+    color: #404BBF;
+    border: 1px solid #404BBF;
+}
 
 .customers-list:not(:last-child) {
     margin-right: 24px;
 }
+
+
 
 /* Footer */
 
