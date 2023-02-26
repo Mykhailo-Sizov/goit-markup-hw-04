@@ -204,9 +204,11 @@ ul {
     cursor: pointer;
     border-radius: 4px;
     border: none;
+   
 }
 .button-hero:hover {
     background-color: #404BBF;
+   
 }
 
 /* первая секция после героя */
