@@ -410,6 +410,10 @@ a {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    display: flex;
+}
+
 .logo-link-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -434,3 +438,44 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.footer-div-icon {
+    margin-left: 120px;
+}
+
+.footer-social-title {
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footr-icon-ul {
+    display: flex;
+}
+
+.footer-icon-li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.footer-icon-link {
+    display: block;
+    padding: 8px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+    background-color: #31D0AA;
+}
+
+
+.footer-icon-svg {
+    fill: #F4F4FD;
+}
+
